@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Say What</title>
+    <link rel="stylesheet" href="./main.css"> 
+    <script defer src="./src/index.js"> </script>
+</head>
+<body>
+
+        <header> 
+            <h1> Phase 1-project</h1>
+        </header>
+    
+        <div id="quote-area"> 
+            <h3> The inspirational Quote </h3>
+            <div id = 'quote'></div>
+            <button id ='quote-button'> New Quote </button>
+        </div>
+    
+        <div id="players-arena">
+            <div id="pause-message"></div>
+            <h4> And the Reactions are:</h4>
+            <div id="container">
+                <div id="mycurrentHand">
+                    <div id='my-first-card' class="my-cards"> card 1</div>
+                    <div id='my-second-card'class="my-cards"> card 2</div>
+                    <div id='my-third-card'class="my-cards"> card 3</div>
+                    <div id='my-fourth-card'class="my-cards"> card 4</div>
+                    <div id='my-fifth-card'class="my-cards"> card 5</div>
+                </div>
+                <button id="my-cards-button"> My Hand </button>
+            </div>
+            <div id="players-table">
+                <div id='player1cards' class="playing-cards"> NPC1 </div> 
+                <div id='player2cards' class="playing-cards"> NPC2 </div>
+                <div id='player3cards' class="playing-cards"> NPC3 </div>
+                <div id='player4cards' class="playing-cards"> NPC4 </div>
+                <div id='your-play-card' class="playing-cards"> My Card</div>
+            </div>
+            <!-- Make sure that each players card is linked to a particular card ID-->
+        </div>
+    
+        <div id="winning-card"> 
+            <h3> And the winner is:</h3>
+            <div id="round-winner"></div>
+        </div>
+    
+        <footer>
+            <ul id="'pointsDiv"> Player Points: 
+                <li id="P1" class = 'point'> P1: </li>
+                <li id="P2" class = 'point'> P2: </li>
+                <li id="P3" class = 'point'> P3: </li>
+                <li id="P4" class = 'point'> P4: </li>
+                <li id="P5" class = 'point'> P5: </li>
+            </ul>
+        </footer>
+
+
+
+</body>
+</html>

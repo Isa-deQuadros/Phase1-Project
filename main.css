@@ -1,0 +1,99 @@
+body{
+    font-family:fantasy;
+    font-weight: bold;
+    width: 100%;
+    margin: 0;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(203, 198, 92);
+    border: 5px solid rgba(13, 94, 13, 0.844);
+}
+#quote-area{
+    background-color: beige;
+    padding: 10px 0 0 10px;
+}
+h3{
+    font-size: 25px;
+    text-decoration: underline;
+}
+#container{
+    margin: 10px 0;
+}
+button{
+    font-size: 15px;
+    padding: 5px;
+    margin: 0 0 15px 12px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(203, 198, 92);
+    color: black;
+    border: 2px solid black;
+}
+#mycurrentHand{
+    height: 200px;
+}
+.my-cards{
+    display: inline-block;
+    margin: 5px 10px;
+    height: 130px;
+    width: 100px;
+    background-color: beige;
+    text-align: center;
+    padding-top:25px;
+}
+.my-cards:hover{
+    border: 8px solid yellow;
+}
+#players-arena{
+    background-color: rgba(13, 94, 13, 0.844);
+}
+#pause-message{
+    text-align: center;
+}
+.pause-Image{
+    max-height: 300px;
+    max-width: 400px;
+}
+h4{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 30px 0 30px 
+}
+#players-table{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 50px;
+    column-gap: 50px;
+    padding: 0 15px 30px 15px;
+}
+.playing-cards{
+    height: 300px;
+    width: 200px;
+    background-color: beige;
+    text-align: center;
+    padding-top: 45px;
+}
+.playing-cards:hover{
+    /* box-shadow: 8px 8px 2px 3px rgba(234, 252, 77, 0.962); */
+    border: 8px solid yellow;
+}
+#your-play-card{
+    font-size: 30px;
+    text-align: center;
+}
+.point{
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px 0 0px;
+}
+#pointDiv{
+    padding-left: 0;
+}
+#round-winner{
+    text-decoration: underline;
+    display: inline-block;
+}
